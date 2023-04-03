@@ -224,6 +224,33 @@
           "src/main/resources/data/test/recipes/rcatalyst.json"
         ]
       }
+    },
+    {
+      "name": "Batterie",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batterie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/batterie.json",
+          "src/main/java/net/mcreator/test/item/BatterieItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rbatterie",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rbatterie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/rbatterie.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -231,6 +258,7 @@
   "language_map": {
     "en_us": {
       "gui.test.panel.button_jour": "jour",
+      "item.test.batterie": "Batterie",
       "gui.test.panel.button_soleil": "soleil",
       "gui.test.panel.button_orage": "orage",
       "item.test.catalyst": "Catalyst",
