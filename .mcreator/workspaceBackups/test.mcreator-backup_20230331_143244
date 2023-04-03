@@ -1,0 +1,264 @@
+{
+  "mod_elements": [
+    {
+      "name": "Admin",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/inventory/AdminInventoryCapability.java",
+          "src/main/java/net/mcreator/test/item/AdminItem.java",
+          "src/main/resources/assets/test/models/item/admin.json"
+        ]
+      }
+    },
+    {
+      "name": "Jour",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jour",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/JourProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nuit",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/NuitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Weather",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weather",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/WeatherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Panel",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/network/PanelButtonMessage.java",
+          "src/main/java/net/mcreator/test/world/inventory/PanelMenu.java",
+          "src/main/java/net/mcreator/test/client/gui/PanelScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Thunder",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ThunderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rweather",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rweather",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/rweather.json"
+        ]
+      }
+    },
+    {
+      "name": "Lighting",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/LightingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Catalyst",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catalyst",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/CatalystItem.java",
+          "src/main/resources/assets/test/models/item/catalyst.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcatalyst",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcatalyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/rcatalyst.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.test.panel.button_jour": "jour",
+      "gui.test.panel.button_soleil": "soleil",
+      "gui.test.panel.button_orage": "orage",
+      "item.test.catalyst": "Catalyst",
+      "gui.test.panel.label_weather_maker_2_000": "weather maker 2 000",
+      "gui.test.panel.button_nuit": "nuit",
+      "item.test.admin": "weather maker 2000"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "test",
+    "modName": "test",
+    "version": "1.0.0",
+    "author": "mathis, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.test",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

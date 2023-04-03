@@ -1,0 +1,93 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_weather_maker_2_000",
+          "text": {
+            "fixedValue": "weather maker 2 000"
+          },
+          "color": {
+            "value": -13421569,
+            "falpha": 0.0
+          },
+          "x": 164,
+          "y": 49
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_jour",
+          "text": "jour",
+          "onClick": {
+            "name": "Jour"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 131,
+          "y": 79
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_nuit",
+          "text": "nuit",
+          "onClick": {
+            "name": "Nuit"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 236,
+          "y": 79
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_soleil",
+          "text": "soleil",
+          "onClick": {
+            "name": "Weather"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 163,
+          "y": 112
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_orage",
+          "text": "orage",
+          "onClick": {
+            "name": "Thunder"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 184,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_fv": 39,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "weather",
+    "customModelName": "Tool",
+    "name": "weather maker 2000",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 25.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": true,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1000.0,
+    "specialInfo": [
+      "vous permet de controler la météo"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "Panel",
+    "inventorySize": 0,
+    "inventoryStackSize": 64,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}
